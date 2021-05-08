@@ -1,0 +1,109 @@
+body{
+  text-align:center;
+  background-color:pink
+  background-repeat:repeat;
+  background:linear-gradient(#1aed8b 0%, #ed1aa0 100%);
+  
+}
+img
+{
+  width:80%;    
+  margin-top:20px;
+  border-radius:0px;    
+} 
+
+h1{
+  text-shadow:2px 2px #F8BBD0;
+  font-size:35px;
+}
+
+p{
+  font-size:16px;
+  color:black;
+  font-weight:bold;
+  text-align: justify-all;  
+}
+h2{
+  font-size:20px;
+  color:#1A237E;
+}
+.line{
+  height:6px;
+  background-color:black;
+  width:70px;
+  margin:8px auto;
+    
+   
+}
+#bio{
+  padding:20px;
+  font-size:18;
+  text-align:center;
+  width:100%;
+  height:100%;
+      
+    
+}
+
+.menu{
+  font-family:cursive;
+  cursor:pointer; 
+  background-color:powderblue;    
+}
+
+.link{
+  color:white;    
+  display:inline;
+  padding-right:20px;
+ 
+}
+
+.link:hover{
+   text-shadow:2px 2px white;  
+}
+
+.link:a{
+  text-decoration:none;   
+}
+
+#myname{
+  font-family: 'Cinzel Decorative';
+}
+
+#mywork{
+    text-shadow:2px 2px #F8BBD0;  
+}
+
+h3{
+    font-size: 25px;
+}
+#button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  padding-bottom:15px;    
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width:70%;
+  height: 50px;    
+}
+
+#contact{
+    width:100%;
+    text-align: center;
+}
+#image1{
+    
+    transition: transform .2s;
+    border-style:solid;
+    border-width: thick;
+    border-color:aqua;
+    padding:5px;
+    width:60%;
+}
+
+#image1:hover{
+    transform:scale(0.9);
+}
